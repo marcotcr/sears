@@ -1,5 +1,5 @@
 # sears
-Code for "Semantically Equivalent Adversarial Rulesfor Debugging NLP Models"
+Code for [Semantically Equivalent Adversarial Rules for Debugging NLP Models](https://homes.cs.washington.edu/~marcotcr/acl18.pdf)
 
 # Installation
 Run the following:
