@@ -19,8 +19,8 @@ else:
 
 # DEFAULT_TO_PATHS = ['/home/marcotcr/OpenNMT-py/trained_models/english_french_model_acc_70.61_ppl_3.73_e13.pt', '/home/marcotcr/OpenNMT-py/trained_models/english_german_model_acc_58.34_ppl_7.82_e13.pt', '/home/marcotcr/OpenNMT-py/trained_models/english_portuguese_model_acc_70.90_ppl_4.28_e13.pt']
 # DEFAULT_BACK_PATHS = ['/home/marcotcr/OpenNMT-py/trained_models/french_english_model_acc_68.83_ppl_4.43_e13.pt', '/home/marcotcr/OpenNMT-py/trained_models/german_english_model_acc_57.23_ppl_10.00_e13.pt', '/home/marcotcr/OpenNMT-py/trained_models/portuguese_english_model_acc_69.78_ppl_5.05_e13.pt']
-DEFAULT_TO_PATHS = ['/home/marcotcr/phd/OpenNMT-py/trained_models/english_french_model_acc_71.05_ppl_3.71_e13.pt', '/home/marcotcr/phd/OpenNMT-py/trained_models/english_portuguese_model_acc_70.75_ppl_4.32_e13.pt']
-DEFAULT_BACK_PATHS = ['/home/marcotcr/phd/OpenNMT-py/trained_models/french_english_model_acc_68.51_ppl_4.43_e13.pt', '/home/marcotcr/phd/OpenNMT-py/trained_models/portuguese_english_model_acc_69.93_ppl_5.04_e13.pt']
+DEFAULT_TO_PATHS = ['translation_models/english_french_model_acc_71.05_ppl_3.71_e13.pt', 'translation_models/english_portuguese_model_acc_70.75_ppl_4.32_e13.pt']
+DEFAULT_BACK_PATHS = ['translation_models/french_english_model_acc_68.51_ppl_4.43_e13.pt', 'translation_models/portuguese_english_model_acc_69.93_ppl_5.04_e13.pt']
 
 def choose_forward_translation(sentence, to_translator, back_translator, n=5):
     # chooses the to_translation that gives the best back_score to
